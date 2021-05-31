@@ -1,1 +1,1 @@
-web: java -jar target/springboot_test-0.0.1-SNAPSHOT.jar
+java $JAVA_OPTS -cp target/classes:target/dependency/* com.abaron.springboot_test
