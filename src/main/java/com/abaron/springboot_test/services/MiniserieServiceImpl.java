@@ -1,16 +1,14 @@
 package com.abaron.springboot_test.services;
 
-import com.abaron.springboot_test.repository.IMiniserieRepository;
 import org.springframework.stereotype.Service;
 
 @Service
 public class MiniserieServiceImpl<T> implements miniserieService {
 
-    IMiniserieRepository IMiniserieRepository;
+
     Cache cache;
 
-    public MiniserieServiceImpl(IMiniserieRepository IMiniserieRepository) {
-        this.IMiniserieRepository = IMiniserieRepository;
+    public MiniserieServiceImpl() {
         this.cache = new Cache<String>(3);
     }
 
