@@ -106,4 +106,11 @@ public class Cache<T> implements ICache<T> {
         return;
     }
 
+    public void clearMem(){
+        first = null;
+        first.next = null;
+        last =  null;
+        last.next = null;
+    }
+
 }

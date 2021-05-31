@@ -25,4 +25,7 @@ public class MiniserieController {
     public ResponseEntity<?> followersCount(@PathVariable Integer id){
         return new ResponseEntity(miniserieService.getValue(id), HttpStatus.OK);
     }
+
+
+
 }
