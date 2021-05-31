@@ -1,1 +1,1 @@
-java $JAVA_OPTS -cp target/classes:target/dependency/* com.abaron.springboot_test
+java $JAVA_OPTS -cp target/classes:target/dependency/* com.abaron.springboot_test.SpringbootTestApplication
